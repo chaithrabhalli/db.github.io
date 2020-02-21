@@ -1,0 +1,804 @@
+#list1 {
+  transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+}
+#list1:hover {
+  margin-left: 30px;
+  color: #2c3ea2;
+}
+
+#list2 {
+  transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+}
+#list2:hover {
+  margin-left: 30px;
+  color: #2c3ea2;
+}
+
+#list3 {
+  transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+}
+#list3:hover {
+  margin-left: 30px;
+  color: #eb5757;
+}
+
+#list4 {
+  transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+}
+#list4:hover {
+  margin-left: 30px;
+  color: #eb5757;
+}
+
+#list5 {
+  transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+}
+#list5:hover {
+  margin-left: 30px;
+  color: #eb5757;
+}
+
+#list-forward1 {
+  display: none;
+}
+#list-forward2 {
+  display: none;
+}
+#list-forward3 {
+  display: none;
+}
+#list-forward4 {
+  display: none;
+}
+#list-forward5 {
+  display: none;
+}
+#list1:hover #list-forward1 {
+  display: block;
+}
+
+#list2:hover #list-forward2 {
+  display: block;
+}
+#list3:hover #list-forward3 {
+  display: block;
+}
+#list4:hover #list-forward4 {
+  display: block;
+}
+#list5:hover #list-forward5 {
+  display: block;
+}
+
+.row {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+}
+.block {
+  width: auto;
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  .body-padding {
+    margin: 30px;
+  }
+  /* .digital-product-engineering {
+    width: 900px;
+    height: 198px;
+    font-family: RedHatDisplay;
+    font-size: 90px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2c3ea2;
+  } */
+
+  .digital-engineering {
+    /* width: 933px; */
+    /* height: 198px; */
+    font-family: RedHatDisplay;
+    font-size: 90px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2c3ea2;
+  }
+  .and-media {
+    /* width: 524px; */
+    /* height: 85px; */
+    object-fit: contain;
+    font-family: RedHatDisplay;
+    font-size: 90px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #eb5757;
+    margin-top: -100px;
+  }
+  .home-image {
+    margin-left: -400px;
+  }
+  .flex-container {
+    display: flex;
+    height: 540px;
+    width: 851px;
+  }
+  .main-class {
+    /* padding: 50px 120px; */
+  }
+
+  .flex-container > div {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 40px;
+    margin-left: 60px;
+  }
+
+  .left-div {
+    /* margin-top: 120px; */
+  }
+  .right-div {
+    /* margin-bottom: 500px; */
+  }
+
+  .list-content {
+    margin: 60px;
+    list-style: none;
+  }
+  li {
+    height: 66px;
+    font-family: RedHatText !important;
+    font-size: 50px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    margin-top: 50px;
+    cursor: pointer;
+    width: 100%;
+  }
+  .forward {
+    display: none;
+  }
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1024px) and (max-width: 1280px) and (orientation: portrait) {
+  .body-padding {
+    margin: 20px;
+    width: 100vw !important;
+  }
+  .digital-engineering {
+    font-family: RedHatDisplay;
+    font-size: 80px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2c3ea2;
+  }
+  .and-media {
+    object-fit: contain;
+    font-family: RedHatDisplay;
+    font-size: 80px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #eb5757;
+    margin-top: -70px;
+  }
+  .home-image {
+    height: 600px !important;
+    width: 600px !important;
+    margin-left: -250px;
+  }
+  .flex-container {
+    display: flex;
+    height: 450px;
+    width: 450px;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .flex-container > div {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 40px;
+    margin-left: 60px;
+  }
+
+  .left-div {
+    margin-top: 50px;
+  }
+  .right-div {
+    margin-bottom: 300px;
+  }
+
+  .list-content {
+    /* margin: 5px; */
+    list-style: none;
+  }
+  ul {
+    width: auto;
+    /* margin-top: 100px; */
+  }
+  li {
+    height: 30px;
+    font-family: RedHatText !important;
+    font-size: 40px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    margin-top: 50px;
+    cursor: pointer;
+    width: 100vw;
+  }
+  .float-right {
+    text-align: right;
+  }
+
+  .float-left {
+    float: left;
+  }
+  .float-right {
+    position: absolute;
+    text-align: right;
+    /* top: 1px; */
+    right: 10px;
+    z-index: 999;
+    height: 50px;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+  .body-padding {
+    margin: 20px;
+    width: 100vw !important;
+  }
+  .digital-engineering {
+    font-family: RedHatDisplay;
+    font-size: 60px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2c3ea2;
+  }
+  .and-media {
+    object-fit: contain;
+    font-family: RedHatDisplay;
+    font-size: 60px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #eb5757;
+    margin-top: -70px;
+  }
+  .home-image {
+    height: 400px !important;
+    width: 400px !important;
+    margin-left: -250px;
+  }
+  .flex-container {
+    display: flex;
+    height: 450px;
+    width: 450px;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .flex-container > div {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 40px;
+    margin-left: 60px;
+  }
+
+  .left-div {
+    margin-top: 50px;
+  }
+  .right-div {
+    margin-bottom: 300px;
+  }
+
+  .list-content {
+    /* margin: 5px; */
+    list-style: none;
+  }
+  ul {
+    width: auto;
+    /* margin-top: 100px; */
+  }
+  li {
+    height: 30px;
+    font-family: RedHatText !important;
+    font-size: 40px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    margin-top: 50px;
+    cursor: pointer;
+    width: 100vw;
+  }
+  .float-right {
+    text-align: right;
+  }
+
+  .float-left {
+    float: left;
+  }
+  .float-right {
+    position: absolute;
+    text-align: right;
+    /* top: 1px; */
+    right: 10px;
+    z-index: 999;
+    height: 50px;
+  }
+  .logo {
+    height: 100px;
+    width: 200px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+  .body-padding {
+    margin: 20px;
+    width: 100vw !important;
+  }
+  .digital-engineering {
+    font-family: RedHatDisplay;
+    font-size: 60px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2c3ea2;
+  }
+  .and-media {
+    object-fit: contain;
+    font-family: RedHatDisplay;
+    font-size: 60px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #eb5757;
+    margin-top: -70px;
+  }
+  .home-image {
+    height: 400px !important;
+    width: 400px !important;
+    margin-left: -250px;
+  }
+  .flex-container {
+    display: flex;
+    height: 450px;
+    width: 450px;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .flex-container > div {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 40px;
+    margin-left: 60px;
+  }
+
+  .left-div {
+    margin-top: 50px;
+  }
+  .right-div {
+    margin-bottom: 300px;
+  }
+
+  .list-content {
+    /* margin: 5px; */
+    list-style: none;
+  }
+  ul {
+    width: auto;
+    /* margin-top: 100px; */
+  }
+  li {
+    height: 30px;
+    font-family: RedHatText !important;
+    font-size: 40px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    margin-top: 50px;
+    cursor: pointer;
+    width: 100vw;
+  }
+  .float-right {
+    text-align: right;
+  }
+
+  .float-left {
+    float: left;
+  }
+  .float-right {
+    position: absolute;
+    text-align: right;
+    /* top: 1px; */
+    right: 10px;
+    z-index: 999;
+    height: 50px;
+  }
+  .logo {
+    height: 100px;
+    width: 200px;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+  .body-padding {
+    margin: 20px;
+    width: 100vw !important;
+  }
+  .digital-engineering {
+    font-family: RedHatDisplay;
+    font-size: 60px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2c3ea2;
+  }
+  .and-media {
+    object-fit: contain;
+    font-family: RedHatDisplay;
+    font-size: 60px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #eb5757;
+    margin-top: -70px;
+  }
+  .home-image {
+    height: 500px !important;
+    width: 500px !important;
+    margin-left: -250px;
+  }
+  .flex-container {
+    display: flex;
+    height: 450px;
+    width: 450px;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .flex-container > div {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 40px;
+    margin-left: 60px;
+  }
+
+  .left-div {
+    margin-top: 50px;
+  }
+  .right-div {
+    margin-bottom: 300px;
+  }
+
+  .list-content {
+    /* margin: 5px; */
+    list-style: none;
+  }
+  ul {
+    width: auto;
+    /* margin-top: 100px; */
+  }
+  li {
+    height: 30px;
+    font-family: RedHatText !important;
+    font-size: 40px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    margin-top: 50px;
+    cursor: pointer;
+    width: 100vw;
+  }
+  .float-right {
+    text-align: right;
+  }
+
+  .float-left {
+    float: left;
+  }
+  .float-right {
+    position: absolute;
+    text-align: right;
+    /* top: 1px; */
+    right: 10px;
+    z-index: 999;
+    height: 50px;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+  .body-padding {
+    margin: 20px;
+    width: 100vw !important;
+  }
+  .digital-engineering {
+    font-family: RedHatDisplay;
+    font-size: 60px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2c3ea2;
+  }
+  .and-media {
+    object-fit: contain;
+    font-family: RedHatDisplay;
+    font-size: 60px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #eb5757;
+    margin-top: -70px;
+  }
+  .home-image {
+    height: 400px !important;
+    width: 400px !important;
+    margin-left: -250px;
+  }
+  .flex-container {
+    display: flex;
+    height: 450px;
+    width: 450px;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .flex-container > div {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 40px;
+    margin-left: 60px;
+  }
+
+  .left-div {
+    margin-top: 50px;
+  }
+  .right-div {
+    margin-bottom: 300px;
+  }
+
+  .list-content {
+    /* margin: 5px; */
+    list-style: none;
+  }
+  ul {
+    width: auto;
+    /* margin-top: 100px; */
+  }
+  li {
+    height: 30px;
+    font-family: RedHatText !important;
+    font-size: 40px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    margin-top: 50px;
+    cursor: pointer;
+    width: 100vw;
+  }
+  .float-right {
+    text-align: right;
+  }
+
+  .float-left {
+    float: left;
+  }
+  .float-right {
+    position: absolute;
+    text-align: right;
+    /* top: 1px; */
+    right: 10px;
+    z-index: 999;
+    height: 50px;
+  }
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media only screen and (max-width: 767px) {
+  /* For mobile phones: */
+  h1 {
+    color: red;
+  }
+  .body-padding {
+    margin: 5px;
+  }
+  /* .digital-product-engineering {
+    width: 33px;
+    height: 100px;
+    font-family: RedHatDisplay;
+    font-size: 60px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2c3ea2;
+    margin-top: 20px;
+  } */
+
+  .digital-engineering {
+    /* width: 933px; */
+    /* height: 198px; */
+    font-family: RedHatDisplay;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2c3ea2;
+  }
+  .and-media {
+    /* width: 524px; */
+    /* height: 85px; */
+    object-fit: contain;
+    font-family: RedHatDisplay;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #eb5757;
+    margin-top: -40px;
+  }
+
+  .home-image {
+    height: 300px !important;
+    width: 300px !important;
+    margin-left: -200px;
+  }
+  .flex-container {
+    display: flex;
+    height: 300px;
+    width: 400px;
+    /* margin-top: 50px; */
+  }
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .flex-container > div {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 40px;
+    margin-left: 30px;
+  }
+
+  .left-div {
+    margin-top: 50px;
+  }
+  .right-div {
+    /* margin-bottom: 100px; */
+  }
+
+  .list-content {
+    /* margin: 5px; */
+    list-style: none;
+  }
+
+  li {
+    height: 60px;
+    font-family: RedHatText !important;
+    font-size: 28px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100vw;
+  }
+  .float-right {
+    position: absolute;
+    text-align: right;
+    /* top: 1px; */
+    right: 10px;
+    z-index: 999;
+    height: 30px;
+  }
+
+  .logo {
+    height: 50px;
+    width: 200px;
+  }
+}
