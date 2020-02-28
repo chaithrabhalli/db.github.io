@@ -1,0 +1,637 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  .content-container {
+    background-color: #333333;
+    margin: 0;
+    align-content: center;
+    padding: 151px;
+    height: auto;
+    /* width: 100%; */
+    margin-top: 0 !important;
+    color: white;
+    position: relative;
+  }
+
+  .content-container h3 {
+    width: 723px;
+    height: 173px;
+    font-family: RedHatText;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+  .content-container h1 {
+    width: 249px;
+    height: 64px;
+    font-family: RedHatText;
+    font-size: 40px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #bdbdbd;
+  }
+
+  .content-container h4 {
+    width: 712px;
+    height: 32px;
+    font-family: RedHatText;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #f2f2f2;
+    margin-left: 12px;
+  }
+  .content-container p {
+    width: 739px;
+    height: 32px;
+    font-family: RedHatText;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #e0e0e0;
+    margin-left: 24px;
+  }
+
+  .download-button {
+    width: 346px;
+    height: 57px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    font-family: RedHatText;
+    margin-top: 68px;
+  }
+
+  .button-text {
+    width: 246px;
+    height: 40px;
+    font-family: RedHatText;
+    font-size: 30px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+  }
+
+  .bottomright {
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    /* color: antiquewhite; */
+  }
+  .contact-class {
+    margin-bottom: 10px;
+  }
+  .flex-verticle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+  }
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1024px) and (max-width: 1280px) and (orientation: landscape) {
+  .content-container {
+    background-color: #333333;
+    height: 100% !important;
+    width: 80% !important;
+    color: white;
+    position: relative;
+    padding: 5% 10% 20% 10%;
+  }
+
+  .content-container h3 {
+    font-family: RedHatText;
+    font-size: 32px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+  .content-container h1 {
+    font-family: RedHatText;
+    font-size: 50px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #bdbdbd;
+  }
+
+  .content-container h4 {
+    font-family: RedHatText;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #f2f2f2;
+    margin-left: 12px;
+  }
+  .content-container p {
+    font-family: RedHatText;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #e0e0e0;
+    margin-left: 24px;
+  }
+
+  .download-button {
+    width: 346px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    font-family: RedHatText;
+    margin-top: 68px;
+  }
+
+  .button-text {
+    width: 246px;
+    /* height: 40px; */
+    font-family: RedHatText;
+    font-size: 30px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+  }
+
+  .bottomright {
+    text-align: right;
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+    /* color: antiquewhite; */
+  }
+  .contact-class {
+    margin-bottom: 10px;
+  }
+  .flex-verticle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) and (orientation: portrait) {
+  .content-container {
+    background-color: #333333;
+    height: 100% !important;
+    width: 80% !important;
+    color: white;
+    position: relative;
+    padding: 5% 10% 20% 10%;
+  }
+
+  .content-container h3 {
+    font-family: RedHatText;
+    font-size: 32px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+  .content-container h1 {
+    font-family: RedHatText;
+    font-size: 50px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #bdbdbd;
+  }
+
+  .content-container h4 {
+    font-family: RedHatText;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #f2f2f2;
+    margin-left: 12px;
+  }
+  .content-container p {
+    font-family: RedHatText;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #e0e0e0;
+    margin-left: 24px;
+  }
+
+  .download-button {
+    width: 346px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    font-family: RedHatText;
+    margin-top: 68px;
+  }
+
+  .button-text {
+    width: 246px;
+    /* height: 40px; */
+    font-family: RedHatText;
+    font-size: 30px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+  }
+
+  .bottomright {
+    text-align: right;
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+    /* color: antiquewhite; */
+  }
+  .contact-class {
+    margin-bottom: 10px;
+  }
+  .flex-verticle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+  .content-container {
+    background-color: #333333;
+    height: 100% !important;
+    width: 80% !important;
+    color: white;
+    position: relative;
+    padding: 5% 10% 20% 10%;
+  }
+
+  .content-container h3 {
+    font-family: RedHatText;
+    font-size: 32px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+  .content-container h1 {
+    font-family: RedHatText;
+    font-size: 50px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #bdbdbd;
+  }
+
+  .content-container h4 {
+    font-family: RedHatText;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #f2f2f2;
+    margin-left: 12px;
+  }
+  .content-container p {
+    font-family: RedHatText;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #e0e0e0;
+    margin-left: 24px;
+  }
+
+  .download-button {
+    width: 346px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    font-family: RedHatText;
+    margin-top: 68px;
+  }
+
+  .button-text {
+    width: 246px;
+    /* height: 40px; */
+    font-family: RedHatText;
+    font-size: 30px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+  }
+
+  .bottomright {
+    text-align: right;
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+    /* color: antiquewhite; */
+  }
+  .contact-class {
+    margin-bottom: 10px;
+  }
+  .flex-verticle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+  .content-container {
+    background-color: #333333;
+    height: 100% !important;
+    width: 80% !important;
+    color: white;
+    position: relative;
+    padding: 5% 10% 20% 10%;
+  }
+
+  .content-container h3 {
+    font-family: RedHatText;
+    font-size: 32px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+  .content-container h1 {
+    font-family: RedHatText;
+    font-size: 50px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #bdbdbd;
+  }
+
+  .content-container h4 {
+    font-family: RedHatText;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #f2f2f2;
+    margin-left: 12px;
+  }
+  .content-container p {
+    font-family: RedHatText;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #e0e0e0;
+    margin-left: 24px;
+  }
+
+  .download-button {
+    width: 346px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    font-family: RedHatText;
+    margin-top: 68px;
+  }
+
+  .button-text {
+    width: 246px;
+    /* height: 40px; */
+    font-family: RedHatText;
+    font-size: 30px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+  }
+
+  .bottomright {
+    text-align: right;
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+    /* color: antiquewhite; */
+  }
+  .contact-class {
+    margin-bottom: 10px;
+  }
+  .flex-verticle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media only screen and (max-width: 767px) {
+  .content-container {
+    background-color: #333333;
+    /* padding: 60px; */
+    /* min-height: 100vh; */
+    height: 100% !important;
+    width: auto !important;
+    color: white;
+    position: relative;
+    padding: 5% 10% 55% 10%;
+  }
+
+  .content-container h3 {
+    width: auto;
+    /* height: 150px; */
+    font-family: RedHatText;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 45px;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+  .content-container h1 {
+    width: auto;
+    height: auto;
+    font-family: RedHatText;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #bdbdbd;
+    margin-top: 14px;
+  }
+
+  .content-container h4 {
+    width: auto;
+    height: auto;
+    font-family: RedHatText;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #f2f2f2;
+    margin-left: 12px;
+  }
+  .content-container p {
+    /* width: 739px; */
+    /* height: 30px; */
+    font-family: RedHatText;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #e0e0e0;
+    margin-left: 18px;
+  }
+
+  .download-button {
+    width: 200px;
+    height: 57px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    font-family: RedHatText;
+    margin-top: 68px;
+  }
+
+  .button-text {
+    /* width: 246px; */
+    /* height: 40px; */
+    font-family: RedHatText;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+  }
+
+  .bottomright {
+    text-align: right;
+    position: absolute;
+    right: 40px;
+  }
+  .contact-class {
+    /* margin-bottom: 10px; */
+  }
+  .flex-verticle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 12px; */
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .content-container {
+    background-color: #333333;
+    margin: 0;
+    align-content: center;
+    /* padding: 51px; */
+    height: auto;
+    width: auto;
+    margin-top: 0 !important;
+    color: white;
+    /* position: relative; */
+  }
+}
